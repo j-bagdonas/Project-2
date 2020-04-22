@@ -1,0 +1,71 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    /* background:#232323;   */
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+.nav-pills a{
+    color:black;
+}
+.logo{
+    font-weight:700;
+    font-style:italic;
+}
+.logoStyle{
+    color:rgb(225, 30, 0);
+}
+.jumbotron{
+    background-image:url("/img/indexPics/Guitar1.jpg");
+    background-size: cover;
+    background-position: center;
+  
+}
+.jumbotron h1{
+    background: rgba(15, 32, 39, 0.5);
+    display: inline;
+    border-bottom: 2px solid rgba(232, 34, 22, .5);
+}
+
+/* @media (min-width: 1200px){
+    .jumbotron{
+        height:100vh;
+    }
+} */
+
+.oldPrice{
+    text-decoration:line-through;
+    color:rgb(246, 82, 53);
+}
+.iconBottom{
+    margin: 10px;
+}
+.iconBottom a{
+    color:white;
+}
+footer p {
+    padding: 0;
+}
+.infoBottom p {
+    margin:3px;
+
+}
+.productBottom{
+    /* background:rgb(156, 183, 226); */
+    background:rgba(150, 189, 255, 0.11);
+}
+.card-body{
+    background:rgba(150, 189, 255, 0.11);
+}
+.rightSize{
+    width:50%;
+    height:50%;
+}
+.dropGone{
+    display:block;
+    transition:2s;
+}
